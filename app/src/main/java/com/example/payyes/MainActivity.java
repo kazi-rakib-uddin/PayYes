@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.payyes.Fragment.HomeFragment;
+import com.example.payyes.Fragment.TransactionFragment;
 import com.example.payyes.databinding.ActivityMainBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -33,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_home:
                         selectedFragment = new HomeFragment();
                         break;
-                  /*  case R.id.nav_category:
+                    case R.id.nav_category:
                         selectedFragment = new TransactionFragment();
                         break;
 
-                    case R.id.nav_profile:
+                    /*case R.id.nav_profile:
                         selectedFragment = new ProfileFragment();
                         break;*/
                 }

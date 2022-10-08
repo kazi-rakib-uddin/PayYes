@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.payyes.AddMoneyActivity;
 import com.example.payyes.AllRechargeActivity;
 import com.example.payyes.DTHActivity;
 import com.example.payyes.ElecticActivity;
@@ -66,6 +67,14 @@ public class HomeFragment extends Fragment {
             public void onClick(View view) {
 
                 startActivity(new Intent(getContext(), SearchActivity.class));
+            }
+        });
+
+        binding.btnAddMoney.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(getContext(), AddMoneyActivity.class));
             }
         });
 

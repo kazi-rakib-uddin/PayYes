@@ -628,6 +628,7 @@
                             </LinearLayout>
 
                             <LinearLayout
+                                android:id="@+id/btn_add_money"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/_10sdp"
